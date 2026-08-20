@@ -1,20 +1,16 @@
- Created the Doctors table
- Created columns for Doctor ID, Doctor Name, and Specialization
- Set "Doctor_ID" as the Primary Key.
- Created the Patients table
- Created columns for Patient ID, Patient Name, Age, and Doctor ID.
- Set "Patient_ID" as the Primary Key.
-Set "Doctor_ID" as a Foreign Key referencing the "Doctors" table.
-Created the Appointments table
-Created columns for Appointment ID, Patient ID, Doctor ID, and Appointment Date.
- Set "Appointment_ID" as the Primary Key.
- Set "Patient_ID" and "Doctor_ID" as Foreign Keys.
-Inserted data into the Doctors table
-Added details of three doctors with their specializations.
-Inserted data into the Patients table
-Added details of three patients.
-Connected each patient with a doctor using "Doctor_ID".
-Inserted data into the Appointments table
-Added appointment details for the patients and doctors.
-Displayed the data
-Used the "SELECT *" statement to display the records from all three table.
+This project shows the basic SQL commands used to create a database, select a database, create a table, and describe its structure.
+Created a database
+Created a database named "college_1" using the "CREATE DATABASE" command.
+Selected the database
+Used the "USE" command to select the "college_1" database.
+Created a table
+Created a table named "demo".
+Added two columns: "ID" and "college_name".
+Applied Primary Key
+Set "ID" as the Primary Key.
+This ensures that each record has a unique ID.
+ Defined the data type
+"ID" was defined as "INT".
+"college_name" was defined as "VARCHAR(50)".
+ Displayed the table structure
+ Used the "DESC demo" command to display the structure of the "demo" table.
